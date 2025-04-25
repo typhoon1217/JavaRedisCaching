@@ -2,7 +2,7 @@
 
 JavaRedisCaching Implementation without @SpingCaching 
 
-
+```
 @Override
 public ApiResponse<RegionResponseDTO> getChildrenRegions(Long cortaNo) {
     String cacheKey = childrenRegionsCacheKeyPrefix + cortaNo;
@@ -59,7 +59,7 @@ private List<FlatRegionDTO> getCachedFlatRegions(String cacheKey, RegionSupplier
     
     return regions;
 }
-
+```
 
 스프링 캐싱(`@SpringCaching`) 대신 위와 같은 커스텀 Java Redis 캐싱 구현을 사용하는 장점은 다음과 같습니다:
 
