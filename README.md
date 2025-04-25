@@ -1,6 +1,6 @@
 # JavaRedisCaching
 
-JavaRedisCaching Implementation without @SpingCaching 
+JavaRedisCaching Implementation without @SpingCaching Example
 
 ```
 @Override
